@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ollama Chat</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Ollama Chat Assistant</h1>
+      </nav>
+    </header>
+    <main>
+      <div class="chat-container">
+        <div class="chat-header">
+          <h2>Ollama</h2>
+        </div>
+        <div id="chat-messages">
+          <!-- Chat messages will be displayed here -->
+          <div id="loader" style="display: none">
+            <p>Loading...</p>
+          </div>
+        </div>
+        <div id="chat-input">
+          <input
+            type="text"
+            id="message-input"
+            placeholder="Type a message..."
+          />
+          <button id="send-button" onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Footer content -->
+    </footer>
+    <script src="/static/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+ollama_env/
+ollama_env/Lib/site-packages/**/__pycache__/
+ollama_env/Lib/site-packages/**/*.pyc
+ollama_env/Lib/site-packages/**/.dist-info/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
